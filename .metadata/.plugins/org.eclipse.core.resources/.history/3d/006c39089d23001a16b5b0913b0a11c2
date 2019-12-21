@@ -1,0 +1,20 @@
+package com.CoreJava;
+
+public class Variables {
+
+	void meth1()
+	{
+		int a=10; //local variable
+	System.out.println(a);
+	}
+	
+	public static void main(String[] args) 
+	{
+	
+	 //Local variables cannot be called directly
+	  Variables v=new Variables();
+	  v.meth1();
+
+	}
+
+}

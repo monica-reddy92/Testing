@@ -1,0 +1,26 @@
+package com.CoreJava;
+
+public class Variables_Local {
+
+	void meth1()
+	{
+		int a=10; //local variable
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) 
+	{
+	
+		Variables_Local v=new Variables_Local();
+	    v.meth1();
+	    
+	    void meth2()
+	    {
+	    	int b=20;
+	    	System.out.println(b);
+	    }
+		
+
+	}
+
+}

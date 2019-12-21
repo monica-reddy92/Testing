@@ -1,0 +1,23 @@
+package com.CoreJava;
+
+public class SwitchCase {
+
+	public static void main(String[] args)
+	{
+		//Can be used for integers, characters, and strings
+		String str1="Hi";
+		String str2;
+		switch(str1)
+		{
+		case "Hello":
+			str2="Hello hi";
+			break;
+		case "Hi":
+			str2="Hi hello";
+			break;
+		}
+		
+
+	}
+
+}

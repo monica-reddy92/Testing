@@ -1,0 +1,19 @@
+package com.CoreJava;
+
+public class Variables {
+
+	void meth1()
+	{
+		int a=10; //local variable
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) 
+	{
+	
+	meth1();	
+		
+
+	}
+
+}
